@@ -1,5 +1,6 @@
 import crypto from 'crypto';
 
+console.log(crypto.randomBytes(5).toString('hex'));
 class ProductManager {
     constructor() {
         this.products = [];
